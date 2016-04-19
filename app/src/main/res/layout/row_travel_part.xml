@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="@dimen/row_icon_size"
+        android:layout_height="@dimen/row_icon_size"
+        android:contentDescription="@string/transportation_icon"
+        android:src="@drawable/ic_car"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/text_normal"
+        android:text="Test text"
+        android:gravity="center_vertical"
+        android:paddingLeft="3dp"/>
+</LinearLayout>

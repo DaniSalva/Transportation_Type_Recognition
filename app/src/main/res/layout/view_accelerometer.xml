@@ -1,0 +1,36 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/view_location_title"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_normal"
+        android:text="@string/accelerometer_data_title"
+        />
+
+    <TextView
+        android:id="@+id/accelerometer_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_normal"
+        />
+
+    <TextView
+        android:id="@+id/accelerometer_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_normal"
+        />
+
+    <TextView
+        android:id="@+id/accelerometer_z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_normal"
+        />
+
+</merge>

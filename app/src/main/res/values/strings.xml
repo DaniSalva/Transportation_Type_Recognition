@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Transportation Type Recognition</string>
+
+    <string name="title">Hello world!</string>
+    <string name="action_settings">Recording</string>
+    <string name="gps_data_title">GPS Data</string>
+    <string name="transportation_icon">Transportation Icon</string>
+    <string name="accelerometer_history_tab_title">Accelerometer</string>
+    <string name="location_history_tab_title">GPS data</string>
+    <string name="no_data">No data to display</string>
+    <string name="accelerometer_data_title">Accelerometer Data</string>
+</resources>
